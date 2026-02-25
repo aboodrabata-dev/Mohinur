@@ -15,7 +15,7 @@ const CONFIG = {
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        bears: ['🧸', '🐻', '🐱', '🐱', '🐱', '🐱', '🐱']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you love me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't only love you, you are 7beebi! ❤️"           // Secret hover message
+            secretAnswer: "I don't only love you, you are my 7beebi! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -43,8 +43,8 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Forever and always and to infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond the universe! 🥰"                           // Shows when they go past 100%
+        high: "FOREVERR AND ALWAYSSS AND TO INFINITYYYYYY AND BEYOOONDDD! 🚀💕💝",              // Shows when they go past 1000%
+        normal: "AND BEYOND THE WHOLE UNIVERSEEEE! 💕🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -67,10 +67,10 @@ const CONFIG = {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "20s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
+        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDistance: "60px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        heartExplosionSize: 2.0         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
@@ -78,10 +78,10 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/djnsppudm/video/upload/v1772001783/256612-d9ba459e-e75e-4a91-ab8d-ba95e97e46dd_geohek.mp4", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/djnsppudm/video/upload/v1772002610/256612-d9ba459e-e75e-4a91-ab8d-ba95e97e46dd_JTMIKnbr_iof4x5.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+        volume: 0.8                        // Volume level (0.0 to 1.0)
     }
 };
 
